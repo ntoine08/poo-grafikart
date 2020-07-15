@@ -2,11 +2,11 @@
 
 class Personnage{
 
-    private static $max_vie = 120;
+    protected static $max_vie = 120;
 
-    public $vie = 80;
-    public $atk = 20;
-    public $nom;
+    protected $vie = 80;
+    protected $atk = 20;
+    protected $nom;
 
     public function __construct($nom)
     {
