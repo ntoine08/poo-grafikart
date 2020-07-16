@@ -11,8 +11,10 @@
 
 <body>
 <?php
-require 'form.php';
-require 'boostrapForm.php';
+require 'class/autoloader.php';
+Autoloader::register();
+
+
 $form = new bootstrapForm($_POST);
 
 ?>
