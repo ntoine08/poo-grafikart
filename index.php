@@ -1,3 +1,7 @@
+<?php
+use \Tutoriel\HTML\bootstrapForm;
+use \Tutoriel\Autoloader;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,4 +1,6 @@
 <?php 
+namespace Tutoriel\HTML;
+
 /**
  * Class Form
  * permet de générer un formulaire rapidement et simplement
@@ -53,6 +55,8 @@ class Form{
     public function submit(){
         return $this->surround ('<button type="submit">Envoyer</button>');
     }
+
+    
 }
 
 
